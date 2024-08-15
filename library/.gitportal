@@ -3,5 +3,5 @@
 	bidircode = ios
 	bidirbranch = main
 	commit = 25bfcaff2ed081bcf2a62b68e2e64bf5508dece0
-	parent = 738eef7051bff1508ff64808dcce377b47c22b86
+	parent = 508ba7660b1a38863f2fb24f7d3c65bded1e7977
 	remote = https://github.com/mDiekmann/GitPortalTemplateLibrary.git
