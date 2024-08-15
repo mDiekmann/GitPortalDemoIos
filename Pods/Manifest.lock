@@ -1,0 +1,16 @@
+PODS:
+  - allshared (1.0)
+
+DEPENDENCIES:
+  - allshared (from `~/Developer/GitPortalTemplateLibrary/allshared/`)
+
+EXTERNAL SOURCES:
+  allshared:
+    :path: "~/Developer/GitPortalTemplateLibrary/allshared/"
+
+SPEC CHECKSUMS:
+  allshared: 4a5680f668c80f7e4a80cca2d83921cecf412036
+
+PODFILE CHECKSUM: 7eea368ad18abebf8bbc160b1af7c46b315ed81a
+
+COCOAPODS: 1.15.0
