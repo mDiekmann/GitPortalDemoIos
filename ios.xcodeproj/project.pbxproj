@@ -47,6 +47,7 @@
 		63ACC6C82AAE3D8E00965310 /* iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63ACC6D52AAE3DDB00965310 /* BreedListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedListScreen.swift; sourceTree = "<group>"; };
 		63ACC6D62AAE3DDB00965310 /* BreedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedViewModel.swift; sourceTree = "<group>"; };
+		ABC363F82C6E7B7E00A75D38 /* GitPortalTemplateLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GitPortalTemplateLibrary; path = ../GitPortalTemplateLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				63ACC6BB2AAE3D8E00965310 /* iosTests */,
 				63ACC6C52AAE3D8E00965310 /* iosUITests */,
 				63ACC6A82AAE3D8D00965310 /* Products */,
+				ABFC8F962C6E6F8500A5F982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +132,14 @@
 				63ACC6C82AAE3D8E00965310 /* iosUITestsLaunchTests.swift */,
 			);
 			path = iosUITests;
+			sourceTree = "<group>";
+		};
+		ABFC8F962C6E6F8500A5F982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC363F82C6E7B7E00A75D38 /* GitPortalTemplateLibrary */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
