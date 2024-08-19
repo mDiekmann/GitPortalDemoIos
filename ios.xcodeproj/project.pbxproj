@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		63ACC6C92AAE3D8E00965310 /* iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACC6C82AAE3D8E00965310 /* iosUITestsLaunchTests.swift */; };
 		63ACC6D72AAE3DDB00965310 /* BreedListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACC6D52AAE3DDB00965310 /* BreedListScreen.swift */; };
 		63ACC6D82AAE3DDB00965310 /* BreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACC6D62AAE3DDB00965310 /* BreedViewModel.swift */; };
+		ABB8C4262C740757000FEDED /* allshared in Frameworks */ = {isa = PBXBuildFile; productRef = ABB8C4252C740757000FEDED /* allshared */; };
+		ABB8C4282C7407CB000FEDED /* breeds in Resources */ = {isa = PBXBuildFile; fileRef = ABB8C4272C7407CB000FEDED /* breeds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,8 @@
 		63ACC6C82AAE3D8E00965310 /* iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63ACC6D52AAE3DDB00965310 /* BreedListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedListScreen.swift; sourceTree = "<group>"; };
 		63ACC6D62AAE3DDB00965310 /* BreedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreedViewModel.swift; sourceTree = "<group>"; };
-		ABC363F82C6E7B7E00A75D38 /* GitPortalTemplateLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GitPortalTemplateLibrary; path = ../GitPortalTemplateLibrary; sourceTree = "<group>"; };
+		ABB8C4212C7405AC000FEDED /* TestPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TestPackage; path = ../TestPackage; sourceTree = "<group>"; };
+		ABB8C4272C7407CB000FEDED /* breeds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = breeds; path = ../GitPortalTemplateLibrary/breeds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB8C4262C740757000FEDED /* allshared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,7 @@
 		63ACC69E2AAE3D8D00965310 = {
 			isa = PBXGroup;
 			children = (
+				ABB8C4182C74049D000FEDED /* Kotlin Debug */,
 				63ACC6A92AAE3D8D00965310 /* ios */,
 				63ACC6BB2AAE3D8E00965310 /* iosTests */,
 				63ACC6C52AAE3D8E00965310 /* iosUITests */,
@@ -134,10 +139,18 @@
 			path = iosUITests;
 			sourceTree = "<group>";
 		};
+		ABB8C4182C74049D000FEDED /* Kotlin Debug */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8C4272C7407CB000FEDED /* breeds */,
+			);
+			name = "Kotlin Debug";
+			sourceTree = "<group>";
+		};
 		ABFC8F962C6E6F8500A5F982 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABC363F82C6E7B7E00A75D38 /* GitPortalTemplateLibrary */,
+				ABB8C4212C7405AC000FEDED /* TestPackage */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +172,7 @@
 			);
 			name = ios;
 			packageProductDependencies = (
+				ABB8C4252C740757000FEDED /* allshared */,
 			);
 			productName = ios;
 			productReference = 63ACC6A72AAE3D8D00965310 /* ios.app */;
@@ -233,6 +247,7 @@
 			);
 			mainGroup = 63ACC69E2AAE3D8D00965310;
 			packageReferences = (
+				ABB8C4242C740757000FEDED /* XCLocalSwiftPackageReference "../allshared" */,
 			);
 			productRefGroup = 63ACC6A82AAE3D8D00965310 /* Products */;
 			projectDirPath = "";
@@ -252,6 +267,7 @@
 			files = (
 				63ACC6B32AAE3D8E00965310 /* Preview Assets.xcassets in Resources */,
 				63ACC6AF2AAE3D8E00965310 /* Assets.xcassets in Resources */,
+				ABB8C4282C7407CB000FEDED /* breeds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +652,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		ABB8C4242C740757000FEDED /* XCLocalSwiftPackageReference "../allshared" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../allshared;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABB8C4252C740757000FEDED /* allshared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = allshared;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63ACC69F2AAE3D8D00965310 /* Project object */;
 }
